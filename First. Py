@@ -1,0 +1,46 @@
+Skip to content
+182sowjanya
+/
+17feb2022
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+17feb2022/17feb2022
+@182sowjanya
+182sowjanya Create 17feb2022
+ 1 contributor
+16 lines (15 sloc)  225 Bytes
+n=int(input('enter n:'))
+n1=0
+n2=1
+sum=0
+for i in range(0,n):
+print(n1,end'  ')
+sum=sum+n1
+Next=n1+n2
+n1=n2
+n2=Next
+print('the sum of fibonacci series:',sum)
+
+Output:
+enter n:8
+0 1 1 2 3 5 8 13
+the sum of fibonacci series:33
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
